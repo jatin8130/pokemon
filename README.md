@@ -1,4 +1,4 @@
-Approach
+Approach : 
 For this project, I built upon the base from Assignment 1 and developed a full-featured Pokémon Explorer web app. I focused on maintaining a clean folder structure from the start, organizing code into separate folders like components, hooks, contexts, and pages.
 
 I used React Context API to manage global state for favorites, and created a custom useLocalStorage hook to persist that data even after refresh.
@@ -13,7 +13,7 @@ A comparison panel lets users compare two Pokémon side by side based on stats.
 
 The UI was styled using Tailwind CSS and made responsive for mobile screens. I added a collapsible header with a dark theme that adapts on smaller screens.
 
-Challenges Faced
+Challenges Faced : 
 Parsing Evolution Chains: PokeAPI returns deeply nested evolution data, so extracting the correct info required writing a recursive parser.
 
 LocalStorage Sync: Getting the favorites state to stay in sync with localStorage was a bit tricky, especially ensuring it updates immediately and reliably.
